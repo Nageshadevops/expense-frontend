@@ -1,5 +1,6 @@
-name: Continuous Integration
+name: Continuous integration
 on: [push]
 jobs:
   call-continuous-integration-reusable:
     uses: Nageshadevops//github-reusable-workflows/.github/workflows/ci.yml@main
+
